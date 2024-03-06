@@ -1,0 +1,19 @@
+{
+  "name": "maketUniver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "node-sass": "sass -w assets/scss/ assets/css/",
+    "server": "node server-start.js"
+  },
+  "keywords": [],
+  "author": "zhenya <zalixdan@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "imask": "^6.6.0",
+    "node-sass": "^8.0.0"
+  },
+  "repository": "https://github.com/Kuznetsov12/online-shop-without-js-work.git"
+}

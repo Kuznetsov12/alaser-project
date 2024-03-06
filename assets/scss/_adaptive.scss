@@ -1,0 +1,229 @@
+@media screen and (max-width: 500px) {
+    .wrapper {
+        width: 450px;
+        margin: 0 auto;
+      }
+    body header .container-header .container-main-header .link{
+        display: none;
+
+    }
+    body header .container-header .container-main-header .btn-header{
+        display: none;
+    }
+    body header .container-header .container-main-header .burger{
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+
+    }
+    body header .container-header .container-main-header .burger .line{
+        width: 20px;
+        height: 3px;
+        background-color: $white;
+        display: block;
+        border-radius: 5px;
+
+        
+    }
+    body .presentation .choise-slide {
+        display: none;
+      }
+      body .presentation .choise-slide a {
+        display: none;
+      }
+      body .presentation .choise-slide a.active {
+        display: none;
+      }
+      body .project .wrapper .tasks-choose {
+        flex-wrap: wrap;
+      }
+      body .presentation .left-text-present{
+        display: none;
+      }
+      body .second-Section .all-container .framework .arrow-left{
+        display: none;
+      }
+      body .second-Section .all-container .framework .arrow-right{
+        display: none;
+      }
+      body .second-Section .all-container .framework .main-svg{
+        display: none;
+      }
+      body .second-Section .choise-slide{
+        display: none;
+      }
+      body .second-Section .all-container .stroke-technology .every-tech p{
+        display: none;
+      }
+      body .svg-book .choise-slide{
+        display: none;
+      }
+      body .intersting .choise-slide{
+        display: none;
+      }
+      body .facts .choise-slide{
+        display: none;
+
+      }
+      body .project .choise-slide{
+        display: none;
+      }
+
+      body .facts .wrapper .card-container .card{
+        display: none;
+
+      }
+      body .facts .wrapper .card-container .card:nth-child(1){
+        display: block;
+
+      }
+      body .svg-book .wrapper .container-svg{
+        margin-right: 0;
+        width: 90%;
+      }
+      body footer .text{
+        align-items: baseline;
+        text-align: left;
+        flex-direction: column;
+      }
+      body .red-dot .choise-slide{
+        display: none;
+
+      }
+      body .svg-book .wrapper{
+        flex-direction: column;
+        gap: 140px;
+      }
+      body .svg-book .wrapper .container-text{
+        margin-bottom: 0px;
+      }
+      body .svg-book .bg{
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding-top: 800px;
+        z-index: -1;
+      }
+      body .svg-book .bg-right{
+        padding-top: 100%;
+        top: 800px;
+        right: 0;
+        width: 100%;
+        
+      }
+      body .svg-book .wrapper .container-svg h1{
+        text-align: left;
+      }
+      body .presentation{
+        padding: 50px 0 ;
+      }
+      body .second-Section{
+        padding: 50px 0;
+      }
+      body .red-dot{
+        padding: 200px 0;
+      }
+      body .svg-book{
+        padding: 50px 0;
+      }
+      body .intersting{
+        padding: 50px 0;
+      }
+      body .facts{
+        padding: 50px 0;
+      }
+      body .project{
+        padding: 50px 0;
+      }
+      body .intersting .right{
+        display: none;
+      }
+      body .facts .wrapper .container .container-svg{
+        display: none;
+      }
+      body .presentation .all-container .center-content h1{
+        font-size: 24px;
+      }
+      body .presentation .all-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+      }
+      body .second-Section .all-container .framework .text-framework{
+        width: 100%;
+
+      }
+      body .second-Section .wrapper .all-container{
+        padding: 20px;
+        width: 100%;
+      }
+      body .red-dot .background-svg{
+        right: auto;
+      }
+      body .red-dot .text-container h2{
+        font-size: 25px;
+      }
+      body .red-dot .text-container p{
+        font-size: 18px;
+      }
+      body .svg-book .wrapper .container-text h1{
+        font-size: 47px;
+      }
+      body .intersting .left{
+        left: 0;
+      }
+      body .intersting .wrapper{
+        padding: 20px;
+      }
+      body .intersting{
+        padding-bottom: 500px;
+      }
+      body .intersting .wrapper .block .ellipse-big{
+        bottom: -460px;
+        left: -560px;
+      }
+      body .intersting .wrapper .block .container-ellipse .ellipse-content:nth-child(1){
+        top: 785px;
+        left: -330px;
+      }
+      body .intersting .wrapper .block .container-ellipse .ellipse-content:nth-child(2){
+        bottom: -180px;
+        left: -210px;
+      }
+      body .intersting .wrapper .block .container-ellipse .ellipse-content:nth-child(3){
+        bottom: -340px;
+        left: -190px;
+      }
+      body .intersting .wrapper .block .container-ellipse .ellipse-content:nth-child(4){
+        bottom: -470px;
+        left: -330px;
+      }
+      body .facts .wrapper .card-container{
+        justify-content: center;
+      }
+      body .facts .wrapper .card-container .card:nth-child(1){
+        width: 80%;
+        height: auto;
+      }
+      body .facts .wrapper .container .txt{
+        text-align: center;
+      }
+      body .project .wrapper .tasks-choose{
+        justify-content: center;
+        gap: 30px;
+      }
+      body .project .wrapper .tasks-choose .circle-content{
+        width: 40%;
+      }
+      body footer .text{
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+      }
+
+
+
+    
+}
